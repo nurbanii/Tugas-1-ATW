@@ -22,7 +22,7 @@ echo "<hr>";
 class Anjing{
 	public $Nama, $Jumlah_Kaki, $Bisa_Terbang, $Suara;
 } 
-$Anjing = new Kucing;
+$Anjing = new Anjing;
 $Anjing->Nama = "Mety";
 $Anjing->Jumlah_Kaki = "4";
 $Anjing->Bisa_Terbang = "Tidak";
@@ -33,4 +33,20 @@ echo "Nama : $Anjing->Nama <br>";
 echo "Jumlah_Kaki : $Anjing->Jumlah_Kaki <br>";
 echo "Bisa_Terbang : $Anjing->Bisa_Terbang <br>";
 echo "Suara : $Anjing->Suara <br>";\
+echo "<hr>";
+
+class Elang{
+	public $Nama, $Jumlah_Kaki, $Bisa_Terbang, $Suara;
+} 
+$Elang = new Elang;
+$Elang->Nama = "Ciu";
+$Elang->Jumlah_Kaki = "2";
+$Elang->Bisa_Terbang = "Iya";
+$Elang->Suara = "Miip";
+
+echo "Elang <br>";
+echo "Nama : $Elang->Nama <br>";
+echo "Jumlah_Kaki : $Elang->Jumlah_Kaki <br>";
+echo "Bisa_Terbang : $Elang->Bisa_Terbang <br>";
+echo "Suara : $Elang->Suara <br>";\
 echo "<hr>";
