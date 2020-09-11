@@ -1,7 +1,7 @@
 <?php
 
 echo "Animal <br>";
-echo  "<hr";
+echo  "<hr>";
 
 class Kucing{
 	public $Nama, $Jumlah_Kaki, $Bisa_Terbang, $Suara;
@@ -16,7 +16,7 @@ echo "Kucing <br>";
 echo "Nama : $Kucing->Nama <br>";
 echo "Jumlah_Kaki : $Kucing->Jumlah_Kaki <br>";
 echo "Bisa_Terbang : $Kucing->Bisa_Terbang <br>";
-echo "Suara : $Kucing->Suara <br>";\
+echo "Suara : $Kucing->Suara <br>";
 echo "<hr>";
 
 class Anjing{
@@ -32,7 +32,7 @@ echo "Anjing <br>";
 echo "Nama : $Anjing->Nama <br>";
 echo "Jumlah_Kaki : $Anjing->Jumlah_Kaki <br>";
 echo "Bisa_Terbang : $Anjing->Bisa_Terbang <br>";
-echo "Suara : $Anjing->Suara <br>";\
+echo "Suara : $Anjing->Suara <br>";
 echo "<hr>";
 
 class Elang{
@@ -48,7 +48,7 @@ echo "Elang <br>";
 echo "Nama : $Elang->Nama <br>";
 echo "Jumlah_Kaki : $Elang->Jumlah_Kaki <br>";
 echo "Bisa_Terbang : $Elang->Bisa_Terbang <br>";
-echo "Suara : $Elang->Suara <br>";\
+echo "Suara : $Elang->Suara <br>";
 echo "<hr>";
 
 class Angsa{
@@ -64,5 +64,5 @@ echo "Angsa <br>";
 echo "Nama : $Angsa->Nama <br>";
 echo "Jumlah_Kaki : $Angsa->Jumlah_Kaki <br>";
 echo "Bisa_Terbang : $Angsa->Bisa_Terbang <br>";
-echo "Suara : $Angsa->Suara <br>";\
+echo "Suara : $Angsa->Suara <br>";
 echo "<hr>";
