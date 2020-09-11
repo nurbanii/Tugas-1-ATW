@@ -50,3 +50,19 @@ echo "Jumlah_Kaki : $Elang->Jumlah_Kaki <br>";
 echo "Bisa_Terbang : $Elang->Bisa_Terbang <br>";
 echo "Suara : $Elang->Suara <br>";\
 echo "<hr>";
+
+class Angsa{
+	public $Nama, $Jumlah_Kaki, $Bisa_Terbang, $Suara;
+} 
+$Angsa = new Angsa;
+$Angsa->Nama = "Anci";
+$Angsa->Jumlah_Kaki = "2";
+$Angsa->Bisa_Terbang = "Tidak";
+$Angsa->Suara = "Kwak Kwak";
+
+echo "Angsa <br>";
+echo "Nama : $Angsa->Nama <br>";
+echo "Jumlah_Kaki : $Angsa->Jumlah_Kaki <br>";
+echo "Bisa_Terbang : $Angsa->Bisa_Terbang <br>";
+echo "Suara : $Angsa->Suara <br>";\
+echo "<hr>";
